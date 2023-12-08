@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.top-header{
+    height: 100vh;
+    background-image: url(./BACKGROUND-1.jpg);
+}
+ 
+.container {
+    height: 100%;
+    background-color: rgb(0,0,0,0.7);
+}
+
+
+.dropdown-container{
+    position: relative;
+}
+
+.btn {
+    background-color: #E50914;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.language-picker {
+    padding: 8px 30px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 2px solid #5F5F5F;
+    border-radius: 5px;
+}
+
+.language{
+    left: 4px;
+}
+
+.language , .drop-down{
+    position: absolute;
+    top: 5px;
+}
+
+.drop-down{
+    right: -2px;
+    top: 6px;
+}
+
+.navbar {
+    margin: 0px 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.right-half{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Header Content styles */
+.content{
+    margin: 30vh auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 , .content p {
+    margin-top: 20px;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 24px;
+    font-weight: 0;
+}
+
+.email-container{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.email-container > input {
+    flex-grow: 1;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 1px solid #5F5F5F;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.get-started-btn {
+    display: flex;
+    align-items: center;
+  font-size: 24px;
+}
+
+.get-started-btn > span {
+    font-size: 30px;
+}
